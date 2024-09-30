@@ -1,4 +1,4 @@
-#import "FlutterVideoCastPlugin.h"
+#import "SmartVideoCastPlugin.h"
 #if __has_include(<smart_video_cast/smart_video_cast-Swift.h>)
 #import <smart_video_cast/smart_video_cast-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "smart_video_cast-Swift.h"
 #endif
 
-@implementation FlutterVideoCastPlugin
+@implementation SmartVideoCastPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftFlutterVideoCastPlugin registerWithRegistrar:registrar];
+  [SwiftSmartVideoCastPlugin registerWithRegistrar:registrar];
 }
 @end
